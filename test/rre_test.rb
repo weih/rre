@@ -3,8 +3,8 @@ require 'test_helper'
 module Renamer
   class TestRenamer < Minitest::Test
     def setup
-      @from = 'torrent'
-      @to = 'php'
+      @from = 'rb'
+      @to = 'py'
     end
 
     def test_rename
